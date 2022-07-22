@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "adminapp/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"522ddcc53b5195e4b884","1":"f3575c8ad641ca95421e","2":"7877679756f8a7ca83b7","3":"326890f9fe1387a571b7","4":"0c21ce0f3d47536ff6c2","5":"ccb280cdd44ee89f910e","6":"5d02a4af22b76275508e","7":"3ab8dbec72d1666972a6","8":"71c5c1dcaae9c3576ed3","9":"70afc210f55ea1dd4de8","10":"d2fc4b2dc4408d715e53","11":"c73d0af1125b164876eb","12":"afb698b486bd10f75378","13":"1fdd799fc13755727c08","14":"b9a79245dcd6064777a4","15":"bad756327af3a3a02527","16":"f9045544b055d8084d8e","17":"6681b221549452d08c43","18":"31c1aae8690a84eabeea","19":"d9cfb0675c1dca39b883","20":"1bfdf92dfb13c4ff2aab","21":"fc37447abfe7d4457319","22":"9a0532d873952a767adf","23":"cf42f17d9a966c52e5a6","24":"5e21cc32568ed603e231","25":"1d97937ab1a425a56320","26":"cbaca05d6ca3d7f33dfd"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "adminapp/js/chunks/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"191c58b3c64ae4f672d8","1":"5d6192cc6da4007137f6","2":"9e96db9ee7e24692cef0","3":"5c63183f13637cc43680","4":"d7b19f9c7166f1800365","5":"56d75b62c19f2bbc8f0f","6":"e8939c1790bded00b3fd","7":"6b2f9129047ca50136c1","8":"5596a0e680404cba088c","9":"4d8806ec48dace10f405","10":"1c7b0bafda1ace1426b3","11":"44398007e96ed54f9221","12":"00ac70cbc7339f1654ae","13":"7dd93d07689cace696ae","14":"955edf3824dabe3ee19a","15":"f42e96a5a229d6186749","16":"2b49923900bc53da9817","17":"14cddf00801e74f81198","18":"f7e6864b7b36b0b7920c","19":"f9cdbb29d639393d9e83","20":"9aa4661ce40e07e67f31","24":"e958b59cb9be04263fa0","25":"20f0c8d3cb8bacf9e132","26":"72968dbf79eec90dbeac","27":"3164ba7c433403c736aa","28":"28418adb193cf5740e7e","29":"afb3bf83922f7821b6c3","30":"632fffe86b1a3b6d7152","31":"986025f7b63fa3fc29af","32":"3b9b08bbdd571b6df41a","33":"339dafac052f72d388cb","34":"2cf667614461336f77d4","35":"7c9a46a3ca50ec32161e","36":"99998f42a7517e4f97db","37":"e4b16167b29a26d1a064","38":"12c993750c5f3dbbb77a","39":"c64cb83a44d839e904db","40":"aa78ef53b0fc3aae5c86","41":"50c7a84bf000b2ec5e49"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -54245,14 +54245,14 @@ var View = {
 var routes = [{
   path: '/',
   component: function component() {
-    return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! @pages/Layout/DashboardLayout.vue */ "./resources/adminapp/js/pages/Layout/DashboardLayout.vue"));
+    return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! @pages/Layout/DashboardLayout.vue */ "./resources/adminapp/js/pages/Layout/DashboardLayout.vue"));
   },
   redirect: 'dashboard',
   children: [{
     path: 'dashboard',
     name: 'dashboard',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 26).then(__webpack_require__.bind(null, /*! @pages/Dashboard.vue */ "./resources/adminapp/js/pages/Dashboard.vue"));
+      return __webpack_require__.e(/*! import() */ 40).then(__webpack_require__.bind(null, /*! @pages/Dashboard.vue */ "./resources/adminapp/js/pages/Dashboard.vue"));
     },
     meta: {
       title: 'global.dashboard'
@@ -54268,7 +54268,7 @@ var routes = [{
       path: 'permissions',
       name: 'permissions.index',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(16)]).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Index.vue */ "./resources/adminapp/js/cruds/Permissions/Index.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(30)]).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Index.vue */ "./resources/adminapp/js/cruds/Permissions/Index.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -54277,7 +54277,7 @@ var routes = [{
       path: 'permissions/create',
       name: 'permissions.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Create.vue */ "./resources/adminapp/js/cruds/Permissions/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Create.vue */ "./resources/adminapp/js/cruds/Permissions/Create.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -54286,7 +54286,7 @@ var routes = [{
       path: 'permissions/:id',
       name: 'permissions.show',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Show.vue */ "./resources/adminapp/js/cruds/Permissions/Show.vue"));
+        return __webpack_require__.e(/*! import() */ 31).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Show.vue */ "./resources/adminapp/js/cruds/Permissions/Show.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -54295,7 +54295,7 @@ var routes = [{
       path: 'permissions/:id/edit',
       name: 'permissions.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Edit.vue */ "./resources/adminapp/js/cruds/Permissions/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 29).then(__webpack_require__.bind(null, /*! @cruds/Permissions/Edit.vue */ "./resources/adminapp/js/cruds/Permissions/Edit.vue"));
       },
       meta: {
         title: 'cruds.permission.title'
@@ -54304,7 +54304,7 @@ var routes = [{
       path: 'roles',
       name: 'roles.index',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(2)]).then(__webpack_require__.bind(null, /*! @cruds/Roles/Index.vue */ "./resources/adminapp/js/cruds/Roles/Index.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! @cruds/Roles/Index.vue */ "./resources/adminapp/js/cruds/Roles/Index.vue"));
       },
       meta: {
         title: 'cruds.role.title'
@@ -54313,7 +54313,7 @@ var routes = [{
       path: 'roles/create',
       name: 'roles.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! @cruds/Roles/Create.vue */ "./resources/adminapp/js/cruds/Roles/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 32).then(__webpack_require__.bind(null, /*! @cruds/Roles/Create.vue */ "./resources/adminapp/js/cruds/Roles/Create.vue"));
       },
       meta: {
         title: 'cruds.role.title'
@@ -54322,7 +54322,7 @@ var routes = [{
       path: 'roles/:id',
       name: 'roles.show',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! @cruds/Roles/Show.vue */ "./resources/adminapp/js/cruds/Roles/Show.vue"));
+        return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! @cruds/Roles/Show.vue */ "./resources/adminapp/js/cruds/Roles/Show.vue"));
       },
       meta: {
         title: 'cruds.role.title'
@@ -54331,7 +54331,7 @@ var routes = [{
       path: 'roles/:id/edit',
       name: 'roles.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! @cruds/Roles/Edit.vue */ "./resources/adminapp/js/cruds/Roles/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 33).then(__webpack_require__.bind(null, /*! @cruds/Roles/Edit.vue */ "./resources/adminapp/js/cruds/Roles/Edit.vue"));
       },
       meta: {
         title: 'cruds.role.title'
@@ -54340,7 +54340,7 @@ var routes = [{
       path: 'users',
       name: 'users.index',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(4)]).then(__webpack_require__.bind(null, /*! @cruds/Users/Index.vue */ "./resources/adminapp/js/cruds/Users/Index.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! @cruds/Users/Index.vue */ "./resources/adminapp/js/cruds/Users/Index.vue"));
       },
       meta: {
         title: 'cruds.user.title'
@@ -54349,7 +54349,7 @@ var routes = [{
       path: 'users/create',
       name: 'users.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.bind(null, /*! @cruds/Users/Create.vue */ "./resources/adminapp/js/cruds/Users/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 38).then(__webpack_require__.bind(null, /*! @cruds/Users/Create.vue */ "./resources/adminapp/js/cruds/Users/Create.vue"));
       },
       meta: {
         title: 'cruds.user.title'
@@ -54358,7 +54358,7 @@ var routes = [{
       path: 'users/:id',
       name: 'users.show',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! @cruds/Users/Show.vue */ "./resources/adminapp/js/cruds/Users/Show.vue"));
+        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! @cruds/Users/Show.vue */ "./resources/adminapp/js/cruds/Users/Show.vue"));
       },
       meta: {
         title: 'cruds.user.title'
@@ -54367,7 +54367,7 @@ var routes = [{
       path: 'users/:id/edit',
       name: 'users.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.bind(null, /*! @cruds/Users/Edit.vue */ "./resources/adminapp/js/cruds/Users/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 39).then(__webpack_require__.bind(null, /*! @cruds/Users/Edit.vue */ "./resources/adminapp/js/cruds/Users/Edit.vue"));
       },
       meta: {
         title: 'cruds.user.title'
@@ -54384,7 +54384,7 @@ var routes = [{
       path: 'contact-companies',
       name: 'contact_companies.index',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(10)]).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Index.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Index.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(12)]).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Index.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Index.vue"));
       },
       meta: {
         title: 'cruds.contactCompany.title'
@@ -54393,7 +54393,7 @@ var routes = [{
       path: 'contact-companies/create',
       name: 'contact_companies.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Create.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Create.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Create.vue"));
       },
       meta: {
         title: 'cruds.contactCompany.title'
@@ -54402,7 +54402,7 @@ var routes = [{
       path: 'contact-companies/:id',
       name: 'contact_companies.show',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Show.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Show.vue"));
+        return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Show.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Show.vue"));
       },
       meta: {
         title: 'cruds.contactCompany.title'
@@ -54411,7 +54411,7 @@ var routes = [{
       path: 'contact-companies/:id/edit',
       name: 'contact_companies.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Edit.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! @cruds/ContactCompanies/Edit.vue */ "./resources/adminapp/js/cruds/ContactCompanies/Edit.vue"));
       },
       meta: {
         title: 'cruds.contactCompany.title'
@@ -54420,7 +54420,7 @@ var routes = [{
       path: 'contact-contacts',
       name: 'contact_contacts.index',
       component: function component() {
-        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(6)]).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Index.vue */ "./resources/adminapp/js/cruds/ContactContacts/Index.vue"));
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(8)]).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Index.vue */ "./resources/adminapp/js/cruds/ContactContacts/Index.vue"));
       },
       meta: {
         title: 'cruds.contactContact.title'
@@ -54429,7 +54429,7 @@ var routes = [{
       path: 'contact-contacts/create',
       name: 'contact_contacts.create',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Create.vue */ "./resources/adminapp/js/cruds/ContactContacts/Create.vue"));
+        return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Create.vue */ "./resources/adminapp/js/cruds/ContactContacts/Create.vue"));
       },
       meta: {
         title: 'cruds.contactContact.title'
@@ -54438,7 +54438,7 @@ var routes = [{
       path: 'contact-contacts/:id',
       name: 'contact_contacts.show',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Show.vue */ "./resources/adminapp/js/cruds/ContactContacts/Show.vue"));
+        return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Show.vue */ "./resources/adminapp/js/cruds/ContactContacts/Show.vue"));
       },
       meta: {
         title: 'cruds.contactContact.title'
@@ -54447,7 +54447,7 @@ var routes = [{
       path: 'contact-contacts/:id/edit',
       name: 'contact_contacts.edit',
       component: function component() {
-        return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Edit.vue */ "./resources/adminapp/js/cruds/ContactContacts/Edit.vue"));
+        return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! @cruds/ContactContacts/Edit.vue */ "./resources/adminapp/js/cruds/ContactContacts/Edit.vue"));
       },
       meta: {
         title: 'cruds.contactContact.title'
@@ -54457,7 +54457,7 @@ var routes = [{
     path: 'transactions',
     name: 'transactions.index',
     component: function component() {
-      return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(22)]).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Index.vue */ "./resources/adminapp/js/cruds/Transactions/Index.vue"));
+      return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(36)]).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Index.vue */ "./resources/adminapp/js/cruds/Transactions/Index.vue"));
     },
     meta: {
       title: 'cruds.transaction.title'
@@ -54466,7 +54466,7 @@ var routes = [{
     path: 'transactions/create',
     name: 'transactions.create',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Create.vue */ "./resources/adminapp/js/cruds/Transactions/Create.vue"));
+      return __webpack_require__.e(/*! import() */ 34).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Create.vue */ "./resources/adminapp/js/cruds/Transactions/Create.vue"));
     },
     meta: {
       title: 'cruds.transaction.title'
@@ -54475,7 +54475,7 @@ var routes = [{
     path: 'transactions/:id',
     name: 'transactions.show',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 23).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Show.vue */ "./resources/adminapp/js/cruds/Transactions/Show.vue"));
+      return __webpack_require__.e(/*! import() */ 37).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Show.vue */ "./resources/adminapp/js/cruds/Transactions/Show.vue"));
     },
     meta: {
       title: 'cruds.transaction.title'
@@ -54484,11 +54484,127 @@ var routes = [{
     path: 'transactions/:id/edit',
     name: 'transactions.edit',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Edit.vue */ "./resources/adminapp/js/cruds/Transactions/Edit.vue"));
+      return __webpack_require__.e(/*! import() */ 35).then(__webpack_require__.bind(null, /*! @cruds/Transactions/Edit.vue */ "./resources/adminapp/js/cruds/Transactions/Edit.vue"));
     },
     meta: {
       title: 'cruds.transaction.title'
     }
+  }, {
+    path: 'content-management',
+    name: 'content_management',
+    component: View,
+    redirect: {
+      name: 'content_categories.index'
+    },
+    children: [{
+      path: 'content-categories',
+      name: 'content_categories.index',
+      component: function component() {
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(18)]).then(__webpack_require__.bind(null, /*! @cruds/ContentCategories/Index.vue */ "./resources/adminapp/js/cruds/ContentCategories/Index.vue"));
+      },
+      meta: {
+        title: 'cruds.contentCategory.title'
+      }
+    }, {
+      path: 'content-categories/create',
+      name: 'content_categories.create',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! @cruds/ContentCategories/Create.vue */ "./resources/adminapp/js/cruds/ContentCategories/Create.vue"));
+      },
+      meta: {
+        title: 'cruds.contentCategory.title'
+      }
+    }, {
+      path: 'content-categories/:id',
+      name: 'content_categories.show',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! @cruds/ContentCategories/Show.vue */ "./resources/adminapp/js/cruds/ContentCategories/Show.vue"));
+      },
+      meta: {
+        title: 'cruds.contentCategory.title'
+      }
+    }, {
+      path: 'content-categories/:id/edit',
+      name: 'content_categories.edit',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! @cruds/ContentCategories/Edit.vue */ "./resources/adminapp/js/cruds/ContentCategories/Edit.vue"));
+      },
+      meta: {
+        title: 'cruds.contentCategory.title'
+      }
+    }, {
+      path: 'content-tags',
+      name: 'content_tags.index',
+      component: function component() {
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(26)]).then(__webpack_require__.bind(null, /*! @cruds/ContentTags/Index.vue */ "./resources/adminapp/js/cruds/ContentTags/Index.vue"));
+      },
+      meta: {
+        title: 'cruds.contentTag.title'
+      }
+    }, {
+      path: 'content-tags/create',
+      name: 'content_tags.create',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.bind(null, /*! @cruds/ContentTags/Create.vue */ "./resources/adminapp/js/cruds/ContentTags/Create.vue"));
+      },
+      meta: {
+        title: 'cruds.contentTag.title'
+      }
+    }, {
+      path: 'content-tags/:id',
+      name: 'content_tags.show',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! @cruds/ContentTags/Show.vue */ "./resources/adminapp/js/cruds/ContentTags/Show.vue"));
+      },
+      meta: {
+        title: 'cruds.contentTag.title'
+      }
+    }, {
+      path: 'content-tags/:id/edit',
+      name: 'content_tags.edit',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.bind(null, /*! @cruds/ContentTags/Edit.vue */ "./resources/adminapp/js/cruds/ContentTags/Edit.vue"));
+      },
+      meta: {
+        title: 'cruds.contentTag.title'
+      }
+    }, {
+      path: 'content-pages',
+      name: 'content_pages.index',
+      component: function component() {
+        return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(20)]).then(__webpack_require__.bind(null, /*! @cruds/ContentPages/Index.vue */ "./resources/adminapp/js/cruds/ContentPages/Index.vue"));
+      },
+      meta: {
+        title: 'cruds.contentPage.title'
+      }
+    }, {
+      path: 'content-pages/create',
+      name: 'content_pages.create',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 41).then(__webpack_require__.bind(null, /*! @cruds/ContentPages/Create.vue */ "./resources/adminapp/js/cruds/ContentPages/Create.vue"));
+      },
+      meta: {
+        title: 'cruds.contentPage.title'
+      }
+    }, {
+      path: 'content-pages/:id',
+      name: 'content_pages.show',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! @cruds/ContentPages/Show.vue */ "./resources/adminapp/js/cruds/ContentPages/Show.vue"));
+      },
+      meta: {
+        title: 'cruds.contentPage.title'
+      }
+    }, {
+      path: 'content-pages/:id/edit',
+      name: 'content_pages.edit',
+      component: function component() {
+        return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! @cruds/ContentPages/Edit.vue */ "./resources/adminapp/js/cruds/ContentPages/Edit.vue"));
+      },
+      meta: {
+        title: 'cruds.contentPage.title'
+      }
+    }]
   }]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
@@ -55113,6 +55229,856 @@ var mutations = {
   },
   setLists: function setLists(state, lists) {
     state.lists = lists;
+  },
+  setLoading: function setLoading(state, loading) {
+    state.loading = loading;
+  },
+  resetState: function resetState(state) {
+    state = Object.assign(state, initialState());
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  namespaced: true,
+  state: initialState,
+  getters: getters,
+  actions: actions,
+  mutations: mutations
+});
+
+/***/ }),
+
+/***/ "./resources/adminapp/js/store/cruds/ContentCategories/index.js":
+/*!**********************************************************************!*\
+  !*** ./resources/adminapp/js/store/cruds/ContentCategories/index.js ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var set = function set(key) {
+  return function (state, val) {
+    state[key] = val;
+  };
+};
+
+function initialState() {
+  return {
+    data: [],
+    total: 0,
+    query: {},
+    loading: false
+  };
+}
+
+var route = 'content-categories';
+var getters = {
+  data: function data(state) {
+    return state.data;
+  },
+  total: function total(state) {
+    return state.total;
+  },
+  loading: function loading(state) {
+    return state.loading;
+  }
+};
+var actions = {
+  fetchIndexData: function fetchIndexData(_ref) {
+    var commit = _ref.commit,
+        state = _ref.state;
+    commit('setLoading', true);
+    axios.get(route, {
+      params: state.query
+    }).then(function (response) {
+      commit('setData', response.data.data);
+      commit('setTotal', response.data.total);
+    })["catch"](function (error) {
+      message = error.response.data.message || error.message; // TODO error handling
+    })["finally"](function () {
+      commit('setLoading', false);
+    });
+  },
+  destroyData: function destroyData(_ref2, id) {
+    var commit = _ref2.commit,
+        state = _ref2.state,
+        dispatch = _ref2.dispatch;
+    axios["delete"]("".concat(route, "/").concat(id)).then(function (response) {
+      dispatch('fetchIndexData');
+    })["catch"](function (error) {
+      message = error.response.data.message || error.message; // TODO error handling
+    });
+  },
+  setQuery: function setQuery(_ref3, value) {
+    var commit = _ref3.commit;
+    commit('setQuery', _.cloneDeep(value));
+  },
+  resetState: function resetState(_ref4) {
+    var commit = _ref4.commit;
+    commit('resetState');
+  }
+};
+var mutations = {
+  setData: set('data'),
+  setTotal: set('total'),
+  setQuery: function setQuery(state, query) {
+    query.page = (query.offset + query.limit) / query.limit;
+    state.query = query;
+  },
+  setLoading: set('loading'),
+  resetState: function resetState(state) {
+    Object.assign(state, initialState());
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  namespaced: true,
+  state: initialState,
+  getters: getters,
+  actions: actions,
+  mutations: mutations
+});
+
+/***/ }),
+
+/***/ "./resources/adminapp/js/store/cruds/ContentCategories/single.js":
+/*!***********************************************************************!*\
+  !*** ./resources/adminapp/js/store/cruds/ContentCategories/single.js ***!
+  \***********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function initialState() {
+  return {
+    entry: {
+      id: null,
+      name: '',
+      slug: '',
+      created_at: '',
+      updated_at: '',
+      deleted_at: ''
+    },
+    loading: false
+  };
+}
+
+var route = 'content-categories';
+var getters = {
+  entry: function entry(state) {
+    return state.entry;
+  },
+  loading: function loading(state) {
+    return state.loading;
+  }
+};
+var actions = {
+  storeData: function storeData(_ref) {
+    var commit = _ref.commit,
+        state = _ref.state,
+        dispatch = _ref.dispatch;
+    commit('setLoading', true);
+    dispatch('Alert/resetState', null, {
+      root: true
+    });
+    return new Promise(function (resolve, reject) {
+      var params = objectToFormData(state.entry, {
+        indices: true,
+        booleansAsIntegers: true
+      });
+      axios.post(route, params).then(function (response) {
+        resolve(response);
+      })["catch"](function (error) {
+        var message = error.response.data.message || error.message;
+        var errors = error.response.data.errors;
+        dispatch('Alert/setAlert', {
+          message: message,
+          errors: errors,
+          color: 'danger'
+        }, {
+          root: true
+        });
+        reject(error);
+      })["finally"](function () {
+        commit('setLoading', false);
+      });
+    });
+  },
+  updateData: function updateData(_ref2) {
+    var commit = _ref2.commit,
+        state = _ref2.state,
+        dispatch = _ref2.dispatch;
+    commit('setLoading', true);
+    dispatch('Alert/resetState', null, {
+      root: true
+    });
+    return new Promise(function (resolve, reject) {
+      var params = objectToFormData(state.entry, {
+        indices: true,
+        booleansAsIntegers: true
+      });
+      params.set('_method', 'PUT');
+      axios.post("".concat(route, "/").concat(state.entry.id), params).then(function (response) {
+        resolve(response);
+      })["catch"](function (error) {
+        var message = error.response.data.message || error.message;
+        var errors = error.response.data.errors;
+        dispatch('Alert/setAlert', {
+          message: message,
+          errors: errors,
+          color: 'danger'
+        }, {
+          root: true
+        });
+        reject(error);
+      })["finally"](function () {
+        commit('setLoading', false);
+      });
+    });
+  },
+  setName: function setName(_ref3, value) {
+    var commit = _ref3.commit;
+    commit('setName', value);
+  },
+  setSlug: function setSlug(_ref4, value) {
+    var commit = _ref4.commit;
+    commit('setSlug', value);
+  },
+  setCreatedAt: function setCreatedAt(_ref5, value) {
+    var commit = _ref5.commit;
+    commit('setCreatedAt', value);
+  },
+  setUpdatedAt: function setUpdatedAt(_ref6, value) {
+    var commit = _ref6.commit;
+    commit('setUpdatedAt', value);
+  },
+  setDeletedAt: function setDeletedAt(_ref7, value) {
+    var commit = _ref7.commit;
+    commit('setDeletedAt', value);
+  },
+  fetchEditData: function fetchEditData(_ref8, id) {
+    var commit = _ref8.commit,
+        dispatch = _ref8.dispatch;
+    axios.get("".concat(route, "/").concat(id, "/edit")).then(function (response) {
+      commit('setEntry', response.data.data);
+    });
+  },
+  fetchShowData: function fetchShowData(_ref9, id) {
+    var commit = _ref9.commit,
+        dispatch = _ref9.dispatch;
+    axios.get("".concat(route, "/").concat(id)).then(function (response) {
+      commit('setEntry', response.data.data);
+    });
+  },
+  resetState: function resetState(_ref10) {
+    var commit = _ref10.commit;
+    commit('resetState');
+  }
+};
+var mutations = {
+  setEntry: function setEntry(state, entry) {
+    state.entry = entry;
+  },
+  setName: function setName(state, value) {
+    state.entry.name = value;
+  },
+  setSlug: function setSlug(state, value) {
+    state.entry.slug = value;
+  },
+  setCreatedAt: function setCreatedAt(state, value) {
+    state.entry.created_at = value;
+  },
+  setUpdatedAt: function setUpdatedAt(state, value) {
+    state.entry.updated_at = value;
+  },
+  setDeletedAt: function setDeletedAt(state, value) {
+    state.entry.deleted_at = value;
+  },
+  setLoading: function setLoading(state, loading) {
+    state.loading = loading;
+  },
+  resetState: function resetState(state) {
+    state = Object.assign(state, initialState());
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  namespaced: true,
+  state: initialState,
+  getters: getters,
+  actions: actions,
+  mutations: mutations
+});
+
+/***/ }),
+
+/***/ "./resources/adminapp/js/store/cruds/ContentPages/index.js":
+/*!*****************************************************************!*\
+  !*** ./resources/adminapp/js/store/cruds/ContentPages/index.js ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var set = function set(key) {
+  return function (state, val) {
+    state[key] = val;
+  };
+};
+
+function initialState() {
+  return {
+    data: [],
+    total: 0,
+    query: {},
+    loading: false
+  };
+}
+
+var route = 'content-pages';
+var getters = {
+  data: function data(state) {
+    return state.data;
+  },
+  total: function total(state) {
+    return state.total;
+  },
+  loading: function loading(state) {
+    return state.loading;
+  }
+};
+var actions = {
+  fetchIndexData: function fetchIndexData(_ref) {
+    var commit = _ref.commit,
+        state = _ref.state;
+    commit('setLoading', true);
+    axios.get(route, {
+      params: state.query
+    }).then(function (response) {
+      commit('setData', response.data.data);
+      commit('setTotal', response.data.total);
+    })["catch"](function (error) {
+      message = error.response.data.message || error.message; // TODO error handling
+    })["finally"](function () {
+      commit('setLoading', false);
+    });
+  },
+  destroyData: function destroyData(_ref2, id) {
+    var commit = _ref2.commit,
+        state = _ref2.state,
+        dispatch = _ref2.dispatch;
+    axios["delete"]("".concat(route, "/").concat(id)).then(function (response) {
+      dispatch('fetchIndexData');
+    })["catch"](function (error) {
+      message = error.response.data.message || error.message; // TODO error handling
+    });
+  },
+  setQuery: function setQuery(_ref3, value) {
+    var commit = _ref3.commit;
+    commit('setQuery', _.cloneDeep(value));
+  },
+  resetState: function resetState(_ref4) {
+    var commit = _ref4.commit;
+    commit('resetState');
+  }
+};
+var mutations = {
+  setData: set('data'),
+  setTotal: set('total'),
+  setQuery: function setQuery(state, query) {
+    query.page = (query.offset + query.limit) / query.limit;
+    state.query = query;
+  },
+  setLoading: set('loading'),
+  resetState: function resetState(state) {
+    Object.assign(state, initialState());
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  namespaced: true,
+  state: initialState,
+  getters: getters,
+  actions: actions,
+  mutations: mutations
+});
+
+/***/ }),
+
+/***/ "./resources/adminapp/js/store/cruds/ContentPages/single.js":
+/*!******************************************************************!*\
+  !*** ./resources/adminapp/js/store/cruds/ContentPages/single.js ***!
+  \******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function initialState() {
+  return {
+    entry: {
+      id: null,
+      title: '',
+      category: [],
+      tag: [],
+      page_text: '',
+      excerpt: '',
+      featured_image: [],
+      created_at: '',
+      updated_at: '',
+      deleted_at: ''
+    },
+    lists: {
+      category: [],
+      tag: []
+    },
+    loading: false
+  };
+}
+
+var route = 'content-pages';
+var getters = {
+  entry: function entry(state) {
+    return state.entry;
+  },
+  lists: function lists(state) {
+    return state.lists;
+  },
+  loading: function loading(state) {
+    return state.loading;
+  }
+};
+var actions = {
+  storeData: function storeData(_ref) {
+    var commit = _ref.commit,
+        state = _ref.state,
+        dispatch = _ref.dispatch;
+    commit('setLoading', true);
+    dispatch('Alert/resetState', null, {
+      root: true
+    });
+    return new Promise(function (resolve, reject) {
+      var params = objectToFormData(state.entry, {
+        indices: true,
+        booleansAsIntegers: true
+      });
+      axios.post(route, params).then(function (response) {
+        resolve(response);
+      })["catch"](function (error) {
+        var message = error.response.data.message || error.message;
+        var errors = error.response.data.errors;
+        dispatch('Alert/setAlert', {
+          message: message,
+          errors: errors,
+          color: 'danger'
+        }, {
+          root: true
+        });
+        reject(error);
+      })["finally"](function () {
+        commit('setLoading', false);
+      });
+    });
+  },
+  updateData: function updateData(_ref2) {
+    var commit = _ref2.commit,
+        state = _ref2.state,
+        dispatch = _ref2.dispatch;
+    commit('setLoading', true);
+    dispatch('Alert/resetState', null, {
+      root: true
+    });
+    return new Promise(function (resolve, reject) {
+      var params = objectToFormData(state.entry, {
+        indices: true,
+        booleansAsIntegers: true
+      });
+      params.set('_method', 'PUT');
+      axios.post("".concat(route, "/").concat(state.entry.id), params).then(function (response) {
+        resolve(response);
+      })["catch"](function (error) {
+        var message = error.response.data.message || error.message;
+        var errors = error.response.data.errors;
+        dispatch('Alert/setAlert', {
+          message: message,
+          errors: errors,
+          color: 'danger'
+        }, {
+          root: true
+        });
+        reject(error);
+      })["finally"](function () {
+        commit('setLoading', false);
+      });
+    });
+  },
+  setTitle: function setTitle(_ref3, value) {
+    var commit = _ref3.commit;
+    commit('setTitle', value);
+  },
+  setCategory: function setCategory(_ref4, value) {
+    var commit = _ref4.commit;
+    commit('setCategory', value);
+  },
+  setTag: function setTag(_ref5, value) {
+    var commit = _ref5.commit;
+    commit('setTag', value);
+  },
+  setPageText: function setPageText(_ref6, value) {
+    var commit = _ref6.commit;
+    commit('setPageText', value);
+  },
+  setExcerpt: function setExcerpt(_ref7, value) {
+    var commit = _ref7.commit;
+    commit('setExcerpt', value);
+  },
+  insertFeaturedImageFile: function insertFeaturedImageFile(_ref8, file) {
+    var commit = _ref8.commit;
+    commit('insertFeaturedImageFile', file);
+  },
+  removeFeaturedImageFile: function removeFeaturedImageFile(_ref9, file) {
+    var commit = _ref9.commit;
+    commit('removeFeaturedImageFile', file);
+  },
+  setCreatedAt: function setCreatedAt(_ref10, value) {
+    var commit = _ref10.commit;
+    commit('setCreatedAt', value);
+  },
+  setUpdatedAt: function setUpdatedAt(_ref11, value) {
+    var commit = _ref11.commit;
+    commit('setUpdatedAt', value);
+  },
+  setDeletedAt: function setDeletedAt(_ref12, value) {
+    var commit = _ref12.commit;
+    commit('setDeletedAt', value);
+  },
+  fetchCreateData: function fetchCreateData(_ref13) {
+    var commit = _ref13.commit;
+    axios.get("".concat(route, "/create")).then(function (response) {
+      commit('setLists', response.data.meta);
+    });
+  },
+  fetchEditData: function fetchEditData(_ref14, id) {
+    var commit = _ref14.commit,
+        dispatch = _ref14.dispatch;
+    axios.get("".concat(route, "/").concat(id, "/edit")).then(function (response) {
+      commit('setEntry', response.data.data);
+      commit('setLists', response.data.meta);
+    });
+  },
+  fetchShowData: function fetchShowData(_ref15, id) {
+    var commit = _ref15.commit,
+        dispatch = _ref15.dispatch;
+    axios.get("".concat(route, "/").concat(id)).then(function (response) {
+      commit('setEntry', response.data.data);
+    });
+  },
+  resetState: function resetState(_ref16) {
+    var commit = _ref16.commit;
+    commit('resetState');
+  }
+};
+var mutations = {
+  setEntry: function setEntry(state, entry) {
+    state.entry = entry;
+  },
+  setTitle: function setTitle(state, value) {
+    state.entry.title = value;
+  },
+  setCategory: function setCategory(state, value) {
+    state.entry.category = value;
+  },
+  setTag: function setTag(state, value) {
+    state.entry.tag = value;
+  },
+  setPageText: function setPageText(state, value) {
+    state.entry.page_text = value;
+  },
+  setExcerpt: function setExcerpt(state, value) {
+    state.entry.excerpt = value;
+  },
+  insertFeaturedImageFile: function insertFeaturedImageFile(state, file) {
+    state.entry.featured_image.push(file);
+  },
+  removeFeaturedImageFile: function removeFeaturedImageFile(state, file) {
+    state.entry.featured_image = state.entry.featured_image.filter(function (item) {
+      return item.id !== file.id;
+    });
+  },
+  setCreatedAt: function setCreatedAt(state, value) {
+    state.entry.created_at = value;
+  },
+  setUpdatedAt: function setUpdatedAt(state, value) {
+    state.entry.updated_at = value;
+  },
+  setDeletedAt: function setDeletedAt(state, value) {
+    state.entry.deleted_at = value;
+  },
+  setLists: function setLists(state, lists) {
+    state.lists = lists;
+  },
+  setLoading: function setLoading(state, loading) {
+    state.loading = loading;
+  },
+  resetState: function resetState(state) {
+    state = Object.assign(state, initialState());
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  namespaced: true,
+  state: initialState,
+  getters: getters,
+  actions: actions,
+  mutations: mutations
+});
+
+/***/ }),
+
+/***/ "./resources/adminapp/js/store/cruds/ContentTags/index.js":
+/*!****************************************************************!*\
+  !*** ./resources/adminapp/js/store/cruds/ContentTags/index.js ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var set = function set(key) {
+  return function (state, val) {
+    state[key] = val;
+  };
+};
+
+function initialState() {
+  return {
+    data: [],
+    total: 0,
+    query: {},
+    loading: false
+  };
+}
+
+var route = 'content-tags';
+var getters = {
+  data: function data(state) {
+    return state.data;
+  },
+  total: function total(state) {
+    return state.total;
+  },
+  loading: function loading(state) {
+    return state.loading;
+  }
+};
+var actions = {
+  fetchIndexData: function fetchIndexData(_ref) {
+    var commit = _ref.commit,
+        state = _ref.state;
+    commit('setLoading', true);
+    axios.get(route, {
+      params: state.query
+    }).then(function (response) {
+      commit('setData', response.data.data);
+      commit('setTotal', response.data.total);
+    })["catch"](function (error) {
+      message = error.response.data.message || error.message; // TODO error handling
+    })["finally"](function () {
+      commit('setLoading', false);
+    });
+  },
+  destroyData: function destroyData(_ref2, id) {
+    var commit = _ref2.commit,
+        state = _ref2.state,
+        dispatch = _ref2.dispatch;
+    axios["delete"]("".concat(route, "/").concat(id)).then(function (response) {
+      dispatch('fetchIndexData');
+    })["catch"](function (error) {
+      message = error.response.data.message || error.message; // TODO error handling
+    });
+  },
+  setQuery: function setQuery(_ref3, value) {
+    var commit = _ref3.commit;
+    commit('setQuery', _.cloneDeep(value));
+  },
+  resetState: function resetState(_ref4) {
+    var commit = _ref4.commit;
+    commit('resetState');
+  }
+};
+var mutations = {
+  setData: set('data'),
+  setTotal: set('total'),
+  setQuery: function setQuery(state, query) {
+    query.page = (query.offset + query.limit) / query.limit;
+    state.query = query;
+  },
+  setLoading: set('loading'),
+  resetState: function resetState(state) {
+    Object.assign(state, initialState());
+  }
+};
+/* harmony default export */ __webpack_exports__["default"] = ({
+  namespaced: true,
+  state: initialState,
+  getters: getters,
+  actions: actions,
+  mutations: mutations
+});
+
+/***/ }),
+
+/***/ "./resources/adminapp/js/store/cruds/ContentTags/single.js":
+/*!*****************************************************************!*\
+  !*** ./resources/adminapp/js/store/cruds/ContentTags/single.js ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+function initialState() {
+  return {
+    entry: {
+      id: null,
+      name: '',
+      slug: '',
+      created_at: '',
+      updated_at: '',
+      deleted_at: ''
+    },
+    loading: false
+  };
+}
+
+var route = 'content-tags';
+var getters = {
+  entry: function entry(state) {
+    return state.entry;
+  },
+  loading: function loading(state) {
+    return state.loading;
+  }
+};
+var actions = {
+  storeData: function storeData(_ref) {
+    var commit = _ref.commit,
+        state = _ref.state,
+        dispatch = _ref.dispatch;
+    commit('setLoading', true);
+    dispatch('Alert/resetState', null, {
+      root: true
+    });
+    return new Promise(function (resolve, reject) {
+      var params = objectToFormData(state.entry, {
+        indices: true,
+        booleansAsIntegers: true
+      });
+      axios.post(route, params).then(function (response) {
+        resolve(response);
+      })["catch"](function (error) {
+        var message = error.response.data.message || error.message;
+        var errors = error.response.data.errors;
+        dispatch('Alert/setAlert', {
+          message: message,
+          errors: errors,
+          color: 'danger'
+        }, {
+          root: true
+        });
+        reject(error);
+      })["finally"](function () {
+        commit('setLoading', false);
+      });
+    });
+  },
+  updateData: function updateData(_ref2) {
+    var commit = _ref2.commit,
+        state = _ref2.state,
+        dispatch = _ref2.dispatch;
+    commit('setLoading', true);
+    dispatch('Alert/resetState', null, {
+      root: true
+    });
+    return new Promise(function (resolve, reject) {
+      var params = objectToFormData(state.entry, {
+        indices: true,
+        booleansAsIntegers: true
+      });
+      params.set('_method', 'PUT');
+      axios.post("".concat(route, "/").concat(state.entry.id), params).then(function (response) {
+        resolve(response);
+      })["catch"](function (error) {
+        var message = error.response.data.message || error.message;
+        var errors = error.response.data.errors;
+        dispatch('Alert/setAlert', {
+          message: message,
+          errors: errors,
+          color: 'danger'
+        }, {
+          root: true
+        });
+        reject(error);
+      })["finally"](function () {
+        commit('setLoading', false);
+      });
+    });
+  },
+  setName: function setName(_ref3, value) {
+    var commit = _ref3.commit;
+    commit('setName', value);
+  },
+  setSlug: function setSlug(_ref4, value) {
+    var commit = _ref4.commit;
+    commit('setSlug', value);
+  },
+  setCreatedAt: function setCreatedAt(_ref5, value) {
+    var commit = _ref5.commit;
+    commit('setCreatedAt', value);
+  },
+  setUpdatedAt: function setUpdatedAt(_ref6, value) {
+    var commit = _ref6.commit;
+    commit('setUpdatedAt', value);
+  },
+  setDeletedAt: function setDeletedAt(_ref7, value) {
+    var commit = _ref7.commit;
+    commit('setDeletedAt', value);
+  },
+  fetchEditData: function fetchEditData(_ref8, id) {
+    var commit = _ref8.commit,
+        dispatch = _ref8.dispatch;
+    axios.get("".concat(route, "/").concat(id, "/edit")).then(function (response) {
+      commit('setEntry', response.data.data);
+    });
+  },
+  fetchShowData: function fetchShowData(_ref9, id) {
+    var commit = _ref9.commit,
+        dispatch = _ref9.dispatch;
+    axios.get("".concat(route, "/").concat(id)).then(function (response) {
+      commit('setEntry', response.data.data);
+    });
+  },
+  resetState: function resetState(_ref10) {
+    var commit = _ref10.commit;
+    commit('resetState');
+  }
+};
+var mutations = {
+  setEntry: function setEntry(state, entry) {
+    state.entry = entry;
+  },
+  setName: function setName(state, value) {
+    state.entry.name = value;
+  },
+  setSlug: function setSlug(state, value) {
+    state.entry.slug = value;
+  },
+  setCreatedAt: function setCreatedAt(state, value) {
+    state.entry.created_at = value;
+  },
+  setUpdatedAt: function setUpdatedAt(state, value) {
+    state.entry.updated_at = value;
+  },
+  setDeletedAt: function setDeletedAt(state, value) {
+    state.entry.deleted_at = value;
   },
   setLoading: function setLoading(state, loading) {
     state.loading = loading;
@@ -56443,6 +57409,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cruds_ContactContacts_single__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./cruds/ContactContacts/single */ "./resources/adminapp/js/store/cruds/ContactContacts/single.js");
 /* harmony import */ var _cruds_Transactions__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./cruds/Transactions */ "./resources/adminapp/js/store/cruds/Transactions/index.js");
 /* harmony import */ var _cruds_Transactions_single__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./cruds/Transactions/single */ "./resources/adminapp/js/store/cruds/Transactions/single.js");
+/* harmony import */ var _cruds_ContentCategories__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./cruds/ContentCategories */ "./resources/adminapp/js/store/cruds/ContentCategories/index.js");
+/* harmony import */ var _cruds_ContentCategories_single__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./cruds/ContentCategories/single */ "./resources/adminapp/js/store/cruds/ContentCategories/single.js");
+/* harmony import */ var _cruds_ContentPages__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./cruds/ContentPages */ "./resources/adminapp/js/store/cruds/ContentPages/index.js");
+/* harmony import */ var _cruds_ContentPages_single__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./cruds/ContentPages/single */ "./resources/adminapp/js/store/cruds/ContentPages/single.js");
+/* harmony import */ var _cruds_ContentTags__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./cruds/ContentTags */ "./resources/adminapp/js/store/cruds/ContentTags/index.js");
+/* harmony import */ var _cruds_ContentTags_single__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./cruds/ContentTags/single */ "./resources/adminapp/js/store/cruds/ContentTags/single.js");
+
+
+
+
+
+
 
 
 
@@ -56476,7 +57454,13 @@ var debug = "development" !== 'production';
     ContactContactsIndex: _cruds_ContactContacts__WEBPACK_IMPORTED_MODULE_12__["default"],
     ContactContactsSingle: _cruds_ContactContacts_single__WEBPACK_IMPORTED_MODULE_13__["default"],
     TransactionsIndex: _cruds_Transactions__WEBPACK_IMPORTED_MODULE_14__["default"],
-    TransactionsSingle: _cruds_Transactions_single__WEBPACK_IMPORTED_MODULE_15__["default"]
+    TransactionsSingle: _cruds_Transactions_single__WEBPACK_IMPORTED_MODULE_15__["default"],
+    ContentCategoriesIndex: _cruds_ContentCategories__WEBPACK_IMPORTED_MODULE_16__["default"],
+    ContentCategoriesSingle: _cruds_ContentCategories_single__WEBPACK_IMPORTED_MODULE_17__["default"],
+    ContentPagesIndex: _cruds_ContentPages__WEBPACK_IMPORTED_MODULE_18__["default"],
+    ContentPagesSingle: _cruds_ContentPages_single__WEBPACK_IMPORTED_MODULE_19__["default"],
+    ContentTagsIndex: _cruds_ContentTags__WEBPACK_IMPORTED_MODULE_20__["default"],
+    ContentTagsSingle: _cruds_ContentTags_single__WEBPACK_IMPORTED_MODULE_21__["default"]
   },
   strict: debug
 }));
@@ -56501,8 +57485,8 @@ var debug = "development" !== 'production';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\xampp\htdocs\quickadminpanel\quickadminpanel-vue-example\resources\adminapp\js\app.js */"./resources/adminapp/js/app.js");
-module.exports = __webpack_require__(/*! E:\xampp\htdocs\quickadminpanel\quickadminpanel-vue-example\resources\adminapp\sass\app.scss */"./resources/adminapp/sass/app.scss");
+__webpack_require__(/*! E:\xampp\htdocs\quickadminpanel\vue-spa\resources\adminapp\js\app.js */"./resources/adminapp/js/app.js");
+module.exports = __webpack_require__(/*! E:\xampp\htdocs\quickadminpanel\vue-spa\resources\adminapp\sass\app.scss */"./resources/adminapp/sass/app.scss");
 
 
 /***/ })

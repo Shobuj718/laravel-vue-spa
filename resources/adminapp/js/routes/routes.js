@@ -176,6 +176,87 @@ const routes = [
         name: 'transactions.edit',
         component: () => import('@cruds/Transactions/Edit.vue'),
         meta: { title: 'cruds.transaction.title' }
+      },
+
+      {
+        path: 'content-management',
+        name: 'content_management',
+        component: View,
+        redirect: { name: 'content_categories.index' },
+        children: [
+          {
+            path: 'content-categories',
+            name: 'content_categories.index',
+            component: () => import('@cruds/ContentCategories/Index.vue'),
+            meta: { title: 'cruds.contentCategory.title' }
+          },
+          {
+            path: 'content-categories/create',
+            name: 'content_categories.create',
+            component: () => import('@cruds/ContentCategories/Create.vue'),
+            meta: { title: 'cruds.contentCategory.title' }
+          },
+          {
+            path: 'content-categories/:id',
+            name: 'content_categories.show',
+            component: () => import('@cruds/ContentCategories/Show.vue'),
+            meta: { title: 'cruds.contentCategory.title' }
+          },
+          {
+            path: 'content-categories/:id/edit',
+            name: 'content_categories.edit',
+            component: () => import('@cruds/ContentCategories/Edit.vue'),
+            meta: { title: 'cruds.contentCategory.title' }
+          },
+          {
+            path: 'content-tags',
+            name: 'content_tags.index',
+            component: () => import('@cruds/ContentTags/Index.vue'),
+            meta: { title: 'cruds.contentTag.title' }
+          },
+          {
+            path: 'content-tags/create',
+            name: 'content_tags.create',
+            component: () => import('@cruds/ContentTags/Create.vue'),
+            meta: { title: 'cruds.contentTag.title' }
+          },
+          {
+            path: 'content-tags/:id',
+            name: 'content_tags.show',
+            component: () => import('@cruds/ContentTags/Show.vue'),
+            meta: { title: 'cruds.contentTag.title' }
+          },
+          {
+            path: 'content-tags/:id/edit',
+            name: 'content_tags.edit',
+            component: () => import('@cruds/ContentTags/Edit.vue'),
+            meta: { title: 'cruds.contentTag.title' }
+          },
+          {
+            path: 'content-pages',
+            name: 'content_pages.index',
+            component: () => import('@cruds/ContentPages/Index.vue'),
+            meta: { title: 'cruds.contentPage.title' }
+          },
+          {
+            path: 'content-pages/create',
+            name: 'content_pages.create',
+            component: () => import('@cruds/ContentPages/Create.vue'),
+            meta: { title: 'cruds.contentPage.title' }
+          },
+          {
+            path: 'content-pages/:id',
+            name: 'content_pages.show',
+            component: () => import('@cruds/ContentPages/Show.vue'),
+            meta: { title: 'cruds.contentPage.title' }
+          },
+          {
+            path: 'content-pages/:id/edit',
+            name: 'content_pages.edit',
+            component: () => import('@cruds/ContentPages/Edit.vue'),
+            meta: { title: 'cruds.contentPage.title' }
+          }
+        ]
       }
     ]
   }

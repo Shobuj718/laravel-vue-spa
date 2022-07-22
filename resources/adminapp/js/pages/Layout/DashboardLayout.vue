@@ -84,6 +84,38 @@ export default {
           icon: 'table_view',
           path: { name: 'transactions.index' },
           gate: 'transaction_access'
+        },
+        {
+          title: 'cruds.transaction.title',
+          icon: 'table_view',
+          path: { name: 'transactions.index' },
+          gate: 'transaction_access'
+        },
+        {
+          title: 'cruds.contentManagement.title',
+          icon: 'table_view',
+          path: { name: 'content_management' },
+          gate: 'content_management_access',
+          children: [
+            {
+              title: 'cruds.contentCategory.title',
+              icon: 'table_view',
+              path: { name: 'content_categories.index' },
+              gate: 'content_category_access'
+            },
+            {
+              title: 'cruds.contentTag.title',
+              icon: 'table_view',
+              path: { name: 'content_tags.index' },
+              gate: 'content_tag_access'
+            },
+            {
+              title: 'cruds.contentPage.title',
+              icon: 'table_view',
+              path: { name: 'content_pages.index' },
+              gate: 'content_page_access'
+            }
+          ]
         }
       ]
     }

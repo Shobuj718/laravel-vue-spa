@@ -10,12 +10,25 @@ import RolesIndex from './cruds/Roles'
 import RolesSingle from './cruds/Roles/single'
 import UsersIndex from './cruds/Users'
 import UsersSingle from './cruds/Users/single'
+
 import ContactCompaniesIndex from './cruds/ContactCompanies'
 import ContactCompaniesSingle from './cruds/ContactCompanies/single'
 import ContactContactsIndex from './cruds/ContactContacts'
 import ContactContactsSingle from './cruds/ContactContacts/single'
+
 import TransactionsIndex from './cruds/Transactions'
 import TransactionsSingle from './cruds/Transactions/single'
+
+import ContentCategoriesIndex from './cruds/ContentCategories'
+import ContentCategoriesSingle from './cruds/ContentCategories/single'
+
+import ContentPagesIndex from './cruds/ContentPages'
+import ContentPagesSingle from './cruds/ContentPages/single'
+
+import ContentTagsIndex from './cruds/ContentTags'
+import ContentTagsSingle from './cruds/ContentTags/single'
+
+
 
 Vue.use(Vuex)
 
@@ -36,7 +49,13 @@ export default new Vuex.Store({
     ContactContactsIndex,
     ContactContactsSingle,
     TransactionsIndex,
-    TransactionsSingle
+    TransactionsSingle,
+    ContentCategoriesIndex,
+    ContentCategoriesSingle,
+    ContentPagesIndex,
+    ContentPagesSingle,
+    ContentTagsIndex,
+    ContentTagsSingle
   },
   strict: debug
 })

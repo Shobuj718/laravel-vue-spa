@@ -25,4 +25,14 @@ Route::group(['prefix' => 'v1', 'as' => 'api.', 'namespace' => 'Api\V1\Admin', '
 
     // Transactions
     Route::resource('transactions', 'TransactionsApiController');
+
+    // Content Category
+    Route::resource('content-categories', 'ContentCategoryApiController');
+
+    // Content Tag
+    Route::resource('content-tags', 'ContentTagApiController');
+
+    // Content Page
+    Route::post('content-pages/media', 'ContentPageApiController@storeMedia')->name('content-pages.storeMedia');
+    Route::resource('content-pages', 'ContentPageApiController');
 });

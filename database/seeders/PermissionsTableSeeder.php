@@ -138,6 +138,70 @@ class PermissionsTableSeeder extends Seeder
                 'id'    => 32,
                 'title' => 'transaction_access',
             ],
+            [
+                'id'    => 33,
+                'title' => 'content_management_access',
+            ],
+            [
+                'id'    => 34,
+                'title' => 'content_category_create',
+            ],
+            [
+                'id'    => 35,
+                'title' => 'content_category_edit',
+            ],
+            [
+                'id'    => 36,
+                'title' => 'content_category_show',
+            ],
+            [
+                'id'    => 37,
+                'title' => 'content_category_delete',
+            ],
+            [
+                'id'    => 38,
+                'title' => 'content_category_access',
+            ],
+            [
+                'id'    => 39,
+                'title' => 'content_tag_create',
+            ],
+            [
+                'id'    => 40,
+                'title' => 'content_tag_edit',
+            ],
+            [
+                'id'    => 41,
+                'title' => 'content_tag_show',
+            ],
+            [
+                'id'    => 42,
+                'title' => 'content_tag_delete',
+            ],
+            [
+                'id'    => 43,
+                'title' => 'content_tag_access',
+            ],
+            [
+                'id'    => 44,
+                'title' => 'content_page_create',
+            ],
+            [
+                'id'    => 45,
+                'title' => 'content_page_edit',
+            ],
+            [
+                'id'    => 46,
+                'title' => 'content_page_show',
+            ],
+            [
+                'id'    => 47,
+                'title' => 'content_page_delete',
+            ],
+            [
+                'id'    => 48,
+                'title' => 'content_page_access',
+            ],
         ];
 
         Permission::insert($permissions);
